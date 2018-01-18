@@ -61,3 +61,11 @@ function destructivelyRemoveElementFromEndOfArray(arrayReference)
   arrayReference.pop();
   return arrayReference;
 }
+function removeElementFromEndOfArray(arrayReference)
+{
+  
+}
+
+
+
+
