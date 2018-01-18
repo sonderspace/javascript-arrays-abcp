@@ -52,3 +52,12 @@ function removeElementFromBeginningOfArray(arrayReference)
   let copiedArray = arrayReference.slice(0, 1)
   return copiedArray;
 }
+function destructivelyRemoveElementFromEndOfArray(arrayReference)
+{
+  // return the altered parameter
+  // not the statement with pop()
+  // which would only return
+  // the new length of the array
+  arrayReference.pop();
+  return arrayReference;
+}
