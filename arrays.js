@@ -49,7 +49,7 @@ function destructivelyRemoveElementFromBeginningOfArray(array)
 }
 function removeElementFromBeginningOfArray(arrayReference)
 {
-  let copiedArray = arrayReference.slice(0, 2)
+  let copiedArray = arrayReference.slice(1, arrayReference.length);
   return copiedArray;
 }
 function destructivelyRemoveElementFromEndOfArray(arrayReference)
