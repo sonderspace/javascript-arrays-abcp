@@ -44,7 +44,6 @@ function accessElementInArray(array, index)
 function destructivelyRemoveElementFromBeginningOfArray(array)
 {
   // mutation will occur
-  // alter the reference
   array.shift()
   return array;
 }
