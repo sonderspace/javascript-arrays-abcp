@@ -64,7 +64,7 @@ function destructivelyRemoveElementFromEndOfArray(arrayReference)
 function removeElementFromEndOfArray(arrayReference)
 {
   let copy;
-  copy = arrayReference.slice(0, arrayReference.length)
+  copy = arrayReference.slice(0, arrayReference.length - 1)
   return copy;
 }
 
