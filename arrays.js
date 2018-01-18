@@ -63,8 +63,10 @@ function destructivelyRemoveElementFromEndOfArray(arrayReference)
 }
 function removeElementFromEndOfArray(arrayReference)
 {
-  
+  let modifiedArray = arrayReference.slice(arrayReference.length)
+  return modifiedArray;
 }
+
 
 
 
